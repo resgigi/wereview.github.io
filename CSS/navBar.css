@@ -1,0 +1,27 @@
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky-top {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    padding-left: 100px;
+}
+
+.navbar-nav {
+    opacity: 0.65;
+}
+
+.sticky-top ul a {
+    color: black;
+    font-size: 17px;
+    font-weight: 0px;
+}
+
+.sticky-top ul li {
+    color: black;
+    font-size: 17px;
+    font-weight: 0px;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */

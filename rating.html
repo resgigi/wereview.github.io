@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đánh giá</title>
+    <link rel="stylesheet" type="text/css" href="CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="CSS/rating.css">
+    <link rel="shortcut icon" href="IMG/logo1.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/navBar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script type="text/javascript" src="JS/style.js"></script>
+    <script type="text/javascript" src="JS/rating.js"></script>
+
+    <!--Footer CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course_responsive.css">
+
+</head>
+
+<body>
+    <div class="header__main">
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-sm">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index2.html" style="margin-bottom: 25px"><img src="IMG/logo.png" width="110px" height="70px"></a>
+
+                <!-- Links -->
+                <ul class="navbar-nav" style="padding-bottom: 30px">
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Trung tâm
+                    </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="schoolDetails-1.html">Lập trình-AI</a>
+                            <a class="dropdown-item" href="schoolDetails-4.html">Thiết kế</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 4 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Đối tác
+                    </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="bussinesspage.html">Liên hệ hợp tác</a>
+                            <a class="dropdown-item" href="#">Đăng ký huy hiệu</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown 5 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbardrop" data-toggle="dropdown">
+                            <span class="material-icons">account_circle</span>
+                        </a>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="profile.html">Thông tin tài khoản</a>
+                            <a class="dropdown-item" href="index.html">Đăng xuất</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <form style="margin-left: 20px">
+            <br>
+            <div>
+                <h1>Đánh giá
+                </h1>
+            </div>
+            <h6>Bạn đang đánh giá VTC Academy</h6>
+            <hr>
+            <h4>Bạn đã học gì ở đây?</h4><br>
+            <input class="text" id="textob" type="text" class="form-control" name="username" placeholder="Tên khóa học...">
+            <p id="eSub0"></p>
+            <br>
+            <h3>Đánh giá chung</h3>
+            <hr>
+            <div style="float: left; margin-right: 30px">
+                <h4>Giảng viên</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+                <h4>Tư vấn xếp lớp</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+                <h4>Cơ sở vật chất</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+                <h4>Số lượng học viên</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+            </div>
+            <div style="margin-left:170px">
+                <h4>Môi trường học tập</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+                <h4>Quan tâm học viên</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+                <h4>Thực hành kỹ năng</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+                <h4>Hài lòng học phí</h4>
+                <select>
+                    <option>☆</option>
+                    <option>☆☆</option>
+                    <option>☆☆☆</option>
+                    <option>☆☆☆☆</option>
+                    <option>☆☆☆☆☆</option>
+                </select>
+            </div>
+
+            <hr>
+            <div>
+                <h3>Nhận xét</h3>
+                <label id="labelrate">Tiêu đều đánh giá</label> <br>
+                <input type="text" class="text" id="textsub" name="" placeholder="Tên tiêu đề...">
+                <p id="eSub"></p>
+                <label id="labelrate">Nhận xét ưu điểm</label><br>
+                <input type="textarea" class="text" id="textUudiem" name="" placeholder="Ưu điểm...">
+                <p id="eSub1"></p>
+                <label id="labelrate">Điểm cần cải thiện</label><br>
+                <input type="textarea" class="text" id="textCaithien" name="" placeholder="Điểm cần cải thiện...">
+                <p id="eSub2"></p>
+                <label id="labelrate">Trải nghiệm và lời khuyên cho học viên mới</label><br>
+                <input type="textarea" class="text" id="textTrainghiem" name="" placeholder="Trải nghiệm của tôi là...">
+                <p id="eSub3"></p>
+            </div>
+            <br>
+            <label class="container1">
+                Nên học ở đây
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container1">
+                Tôi cam đoan đây là nhận xét trung thực và khách quan dựa trên những trải nghiệm của tôi về trung tâm
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <button type="button" id="danhgia" class="btn-hover color" data-toggle="modal" data-target="#myModal">Gửi bài đánh giá</button>
+            <br>
+        </form>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="newsletter">
+        <div class="newsletter_background"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+                        <!-- Newsletter Content -->
+                        <div class="newsletter_content text-lg-left text-center">
+                            <div class="newsletter_title">đăng kí nhận khuyến mãi</div>
+                            <div class="newsletter_subtitle">Đăng kí để nhận được những thông tin khóa học và khuyến mãi mới nhất từ các trung tâm đào tạo</div>
+                        </div>
+
+                        <!-- Newsletter Form -->
+                        <div class="newsletter_form_container ml-lg-auto">
+                            <form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+                                <input type="email" class="newsletter_input" placeholder="Nhập email của bạn" required="required">
+                                <button type="submit" class="newsletter_button">Đăng kí</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div>
+        <footer class="footer">
+            <div class="footer_background"></div>
+            <div class="container">
+                <div class="row footer_row">
+                    <div class="col">
+                        <div class="footer_content">
+                            <div class="row">
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer About -->
+                                    <div class="footer_section footer_about">
+                                        <div class="footer_logo_container">
+                                            <a href="#">
+                                                <div class="footer_logo_text">We<span>Review</span></div>
+                                            </a>
+                                        </div>
+                                        <div class="footer_about_text">
+                                            <p></p>
+                                        </div>
+                                        <div class="footer_social">
+                                            <ul>
+                                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer Contact -->
+                                    <div class="footer_section footer_contact">
+                                        <div class="footer_title">Thông tin liên hệ</div>
+                                        <div class="footer_contact_info">
+                                            <ul>
+                                                <li>Email: demo@gmail.com</li>
+                                                <li>Điện thoại: +(84) 111 222 333</li>
+                                                <li>Quận 11, Hồ Chí Minh, Việt Nam</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_links">
+                                        <div class="footer_title">Về chúng tôi</div>
+                                        <div class="footer_links_container">
+                                            <ul>
+                                                <li><a href="index.html">Trang chủ</a></li>
+                                                <li><a href="">Giới thiệu</a></li>
+                                                <li><a href="">Liên hệ</a></li>
+                                                <li><a href="">Khóa học</a></li>
+                                                <li><a href="">Sự kiện</a></li>
+                                                <li><a href="">Giải đáp</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col clearfix">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_mobile">
+                                        <div class="footer_title">Tải App WeReview!</div>
+                                        <div class="footer_mobile_content">
+                                            <div class="footer_image">
+                                                <a href="#"><img src="IMG/mobile_1.png" alt=""></a>
+                                            </div>
+                                            <div class="footer_image">
+                                                <a href="#"><img src="IMG/mobile_2.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row copyright_row">
+                    <div class="col">
+                        <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+                            <div class="cr_text">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                            <div class="ml-lg-auto cr_links">
+                                <ul class="cr_list">
+                                    <li><a href="#">Copyright notification</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="pointer"></div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thông báo</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p id="resultrating"></p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="close" style="size: 10px;" class="btn-hover color" data-dismiss="modal">Đóng</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Footer JS-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/course.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+    <link rel="stylesheet" type="text/css" href="CSS/navBar.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="shortcut icon" href="IMG/logo1.png">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JS/login.js"></script>
+    <script type="text/javascript" src="JS/style.js"></script>
+    <!--Footer CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course_responsive.css">
+
+</head>
+</head>
+
+<body id="LoginForm">
+    <div class="header__main">
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-sm">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html" style="margin-bottom: 25px"><img src="IMG/logo.png" width="110px" height="70px"></a>
+
+                <!-- Links -->
+                <ul class="navbar-nav" style="padding-bottom: 30px">
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Trung tâm
+                </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="schoolDetails-1.html">Lập trình-AI</a>
+                            <a class="dropdown-item" href="schoolDetails-4.html">Thiết kế</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 4 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Đối tác
+                </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="bussinesspage.html">Liên hệ hợp tác</a>
+                            <a class="dropdown-item" href="#">Đăng ký huy hiệu</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Đăng ký</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <h2>Đăng nhập</h2>
+                    </div>
+                    <form id="Login">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+                        <div class="forgot">
+                            <a href="forgotpass.html">Quên mật khẩu?</a>
+                            <a href="signup.html">Đăng kí</a>
+                        </div>
+
+                        <button type="button" class="btn-hover color" id="btAdd" data-toggle="modal" data-target="#myModal">Đăng nhập</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="newsletter">
+        <div class="newsletter_background"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+                        <!-- Newsletter Content -->
+                        <div class="newsletter_content text-lg-left text-center">
+                            <div class="newsletter_title">đăng kí nhận khuyến mãi</div>
+                            <div class="newsletter_subtitle">Đăng kí để nhận được những thông tin khóa học và khuyến mãi mới nhất từ các trung tâm đào tạo</div>
+                        </div>
+
+                        <!-- Newsletter Form -->
+                        <div class="newsletter_form_container ml-lg-auto">
+                            <form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+                                <input type="email" class="newsletter_input" placeholder="Nhập email của bạn" required="required">
+                                <button type="submit" class="newsletter_button">Đăng kí</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div>
+        <footer class="footer">
+            <div class="footer_background"></div>
+            <div class="container">
+                <div class="row footer_row">
+                    <div class="col">
+                        <div class="footer_content">
+                            <div class="row">
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer About -->
+                                    <div class="footer_section footer_about">
+                                        <div class="footer_logo_container">
+                                            <a href="#">
+                                                <div class="footer_logo_text">We<span>Review</span></div>
+                                            </a>
+                                        </div>
+                                        <div class="footer_about_text">
+                                            <p></p>
+                                        </div>
+                                        <div class="footer_social">
+                                            <ul>
+                                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer Contact -->
+                                    <div class="footer_section footer_contact">
+                                        <div class="footer_title">Thông tin liên hệ</div>
+                                        <div class="footer_contact_info">
+                                            <ul>
+                                                <li>Email: demo@gmail.com</li>
+                                                <li>Điện thoại: +(84) 111 222 333</li>
+                                                <li>Quận 11, Hồ Chí Minh, Việt Nam</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_links">
+                                        <div class="footer_title">Về chúng tôi</div>
+                                        <div class="footer_links_container">
+                                            <ul>
+                                                <li><a href="index.html">Trang chủ</a></li>
+                                                <li><a href="">Giới thiệu</a></li>
+                                                <li><a href="">Liên hệ</a></li>
+                                                <li><a href="">Khóa học</a></li>
+                                                <li><a href="">Sự kiện</a></li>
+                                                <li><a href="">Giải đáp</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col clearfix">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_mobile">
+                                        <div class="footer_title">Tải App WeReview!</div>
+                                        <div class="footer_mobile_content">
+                                            <div class="footer_image">
+                                                <a href="#"><img src="IMG/mobile_1.png" alt=""></a>
+                                            </div>
+                                            <div class="footer_image">
+                                                <a href="#"><img src="IMG/mobile_2.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row copyright_row">
+                    <div class="col">
+                        <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+                            <div class="cr_text">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                            <div class="ml-lg-auto cr_links">
+                                <ul class="cr_list">
+                                    <li><a href="#">Copyright notification</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="pointer"></div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thông báo</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p id="result"></p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="close" style="size: 10px;" class="btn-hover color" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer JS-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/course.js"></script>
+</body>
+
+</html>

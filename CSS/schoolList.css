@@ -1,0 +1,157 @@
+h3.h3 {
+    text-align: center;
+    padding: 1.5em 0em;
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+
+/******************  Post-Slide3 *******************/
+
+.post-slide3 {
+    display: inline-block;
+    width: 31.7%;
+    height: 400px;
+    margin: 0 2% 0 0;
+    padding: 0 25px 20px 25px;
+    background: #f1f1f2;
+    box-shadow: 0 1px 2px rgba(43, 59, 93, .3);
+}
+
+.post-slide3 .post-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.post-slide3 .post-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 220px;
+}
+
+.post-slide3:hover {
+    opacity: 1
+}
+
+.post-slide3 i {
+    font-size: 20px;
+    color: #fff;
+    line-height: 60px
+}
+
+.post-slide3 .post-bar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase
+}
+
+.post-slide3 .post-bar li {
+    display: inline-block;
+    font-size: 13px;
+    color: #676767;
+    margin-right: 5px
+}
+
+.post-slide3 .post-bar li:after {
+    content: "";
+    margin-left: 5px
+}
+
+.post-slide3 .post-bar li:last-child:after {
+    content: ""
+}
+
+.post-slide3 .post-bar li a {
+    color: #8e44ad;
+    transition: all .3s ease 0s
+}
+
+.post-slide3 .post-bar li a:hover {
+    color: orangered;
+    text-decoration: none
+}
+
+.post-slide3 .post-bar li a:after {
+    content: " | ";
+    margin: 0 5px
+}
+
+.post-slide3 .post-bar li a:last-child:after {
+    content: ""
+}
+
+.post-slide3 .post-title {
+    margin: 15px 0;
+    text-transform: capitalize
+}
+
+.post-slide3 .post-title a {
+    font-size: 27px;
+    font-weight: 600;
+    color: #3c3c3c;
+    transition: all .3s linear 0s
+}
+
+.post-slide3 .post-title a:hover {
+    color: #8e44ad;
+    text-decoration: none
+}
+
+.post-slide3 .post-description {
+    font-size: 17px;
+    color: #676767;
+    line-height: 1px;
+}
+
+.post-slide3 .read-more {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.post-slide3 .read-more:hover {
+    text-decoration: none;
+}
+
+.post-slide3 .read-more i {
+    font-size: 12px;
+    color: #333;
+    margin-right: 5px;
+    transition: all .4s linear 0s
+}
+
+.post-slide3 .read-more span {
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    transition: all .4s linear 0s
+}
+
+.post-slide3:hover .read-more span,
+.post-slide3:hover {
+    opacity: 1
+}
+
+.post-slide3 .read-more:hover i,
+.post-slide3 .read-more:hover span,
+.post-slide3 {
+    color: #8e44ad;
+    border-bottom-color: #8e44ad
+}
+
+
+/******************  Carousel *******************/
+
+.carousel {
+    width: 100%;
+    padding: 0 50px 0 50px;
+}
+
+.carousel .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 36, 1) 0%, rgba(176, 207, 213, 0.48783263305322133) 0%, rgba(207, 211, 223, 0.15449929971988796) 100%);
+    border: solid 1px;
+    border-color: #676767;
+}

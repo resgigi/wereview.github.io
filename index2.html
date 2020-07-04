@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WeReview</title>
+    <link rel="stylesheet" type="text/css" href="CSS/navBar.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/schoolList.css">
+    <link rel="stylesheet" type="text/css" href="CSS/searchBar.css">
+    <link rel="shortcut icon" href="IMG/logo1.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Footer CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course_responsive.css">
+
+</head>
+
+<body style="background-image: linear-gradient(90deg, rgba(0,0,36,1) 0%, rgba(176,207,213,0.48783263305322133) 0%, rgba(207,211,223,0.15449929971988796) 100%);">
+    <div>
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-sm">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html" style="margin-bottom: 25px"><img src="IMG/logo.png" width="110px" height="70px"></a>
+
+                <!-- Links -->
+                <ul class="navbar-nav" style="padding-bottom: 30px">
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Trung tâm
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="schoolDetails-1.html">Lập trình-AI</a>
+                            <a class="dropdown-item" href="schoolDetails-4.html">Thiết kế</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 4 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Đối tác
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="bussinesspage.html">Liên hệ hợp tác</a>
+                            <a class="dropdown-item" href="#">Đăng ký huy hiệu</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown 5 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbardrop" data-toggle="dropdown">
+                            <span class="material-icons">account_circle</span>
+                        </a>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="profile.html">Thông tin tài khoản</a>
+                            <a class="dropdown-item" href="index.html">Đăng xuất</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="s01">
+            <form>
+                <div class="inner-form">
+                    <div class="input-field first-wrap">
+                        <input id="search" type="text" placeholder="Nhập từ khóa cần tìm?" />
+                    </div>
+                    <div class="input-field second-wrap">
+                        <select name="" id="">
+                            <option value="">Lập trình</option>
+                            <option value="">Thiết kế</option>
+                            <option value="">Trí tuệ nhân tạo</option>
+                        </select>
+                    </div>
+                    <div class="input-field second-wrap">
+                        <select name="" id="">
+                            <option value="">Hồ Chí Minh</option>
+                            <option value="">Hà Nội</option>
+                        </select>
+                    </div>
+                    <div class="input-field third-wrap">
+                        <button class="btn-search" type="button">TÌM KIẾM</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--Carousel-->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="post-slide3">
+                        <div class="post-img">
+                            <img src="IMG/vtca-course.jpg">
+                        </div>
+                        <ul class="post-bar">
+                            <li>
+                                <a href="#">Web/Mobile/Game</a>
+                                <a href="#">Design</a>
+                                <a href="#">3D Modeling/Animation</a>
+                            </li>
+                        </ul>
+                        <h3 class="post-title"><a>VTC Academy</a></h3>
+                        <p class="post-description">
+                            Học viện CNTT và nội dung số
+                        </p>
+                        <a href="schoolDetails-1-Copy.html" class="read-more">
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>Xem thêm</span>
+                        </a>
+                    </div>
+                    <div class="post-slide3">
+                        <div class="post-img">
+                            <img src="IMG/cybersoft-course.jpg">
+                        </div>
+                        <ul class="post-bar">
+                            <li>
+                                <a href="#">Web Front-end/Back-end/Fullstack</a>
+                                <a href="#">Mobile App</a>
+                            </li>
+                        </ul>
+                        <h3 class="post-title"><a>Cybersoft Academy</a></h3>
+                        <p class="post-description">
+                            Đào tạo chuyên gia lập trình
+                        </p>
+                        <a href="schoolDetails-2.html" class="read-more">
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>Xem thêm</span>
+                        </a>
+                    </div>
+                    <div class="post-slide3" style="margin: unset;">
+                        <div class="post-img">
+                            <img src="IMG/fptaptech-course.jpg">
+                        </div>
+                        <ul class="post-bar">
+                            <li>
+                                <a href="#">Web Front-end/Back-end/Fullstack</a>
+                                <a href="#">Mobile App</a>
+                            </li>
+                        </ul>
+                        <h3 class="post-title"><a>FPT Aptech</a></h3>
+                        <p class="post-description">
+                            Đào tạo lập trình viên chuyên nghiệp
+                        </p>
+                        <a href="schoolDetails-3.html" class="read-more">
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>Xem thêm</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="post-slide3">
+                        <div class="post-img">
+                            <img src="IMG/fptarena-course.jpg">
+                        </div>
+                        <ul class="post-bar">
+                            <li>
+                                <a href="#">Game Design/Animation</a>
+                                <a href="#">Graphic Design</a>
+                            </li>
+                        </ul>
+                        <h3 class="post-title"><a>FPT Arena</a></h3>
+                        <p class="post-description">
+                            Trường đào tạo Mỹ thuật đa phương tiện
+                        </p>
+                        <a href="schoolDetails-4.html" class="read-more">
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>Xem thêm</span>
+                        </a>
+                    </div>
+                    <div class="post-slide3">
+                        <div class="post-img">
+                            <img src="IMG/intek-course.jpg">
+                        </div>
+                        <ul class="post-bar">
+                            <li>
+                                <a href="#">Web Fullstack</a>
+                                <a href="#">Solution Architect</a>
+                            </li>
+                        </ul>
+                        <h3 class="post-title"><a>Intek Academy</a></h3>
+                        <p class="post-description">
+                            Học viện đào tạo kỹ sư CNTT chuyên môn cao
+                        </p>
+                        <a href="schoolDetails-5.html" class="read-more">
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>Xem thêm</span>
+                        </a>
+                    </div>
+                    <div class="post-slide3" style="margin: unset;">
+                        <div class="post-img">
+                            <img src="IMG/greena-course.jpg">
+                        </div>
+                        <ul class="post-bar">
+                            <li>
+                                <a href="#">Web Fullstack</a>
+                                <a href="#">2D/3D Design</a>
+                            </li>
+                        </ul>
+                        <h3 class="post-title"><a>Green Academy</a></h3>
+                        <p class="post-description">
+                            Học viện đào tạo đến từ Hàn Quốc
+                        </p>
+                        <a href="schoolDetails-6.html" class="read-more">
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>Xem thêm</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter -->
+        <div class="newsletter">
+            <div class="newsletter_background"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+                            <!-- Newsletter Content -->
+                            <div class="newsletter_content text-lg-left text-center">
+                                <div class="newsletter_title">đăng kí nhận khuyến mãi</div>
+                                <div class="newsletter_subtitle">Đăng kí để nhận được những thông tin khóa học và khuyến mãi mới nhất từ các trung tâm đào tạo</div>
+                            </div>
+
+                            <!-- Newsletter Form -->
+                            <div class="newsletter_form_container ml-lg-auto">
+                                <form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+                                    <input type="email" class="newsletter_input" placeholder="Nhập email của bạn" required="required">
+                                    <button type="submit" class="newsletter_button">Đăng kí</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div>
+            <footer class="footer">
+                <div class="footer_background"></div>
+                <div class="container">
+                    <div class="row footer_row">
+                        <div class="col">
+                            <div class="footer_content">
+                                <div class="row">
+
+                                    <div class="col-lg-3 footer_col">
+
+                                        <!-- Footer About -->
+                                        <div class="footer_section footer_about">
+                                            <div class="footer_logo_container">
+                                                <a href="#">
+                                                    <div class="footer_logo_text">We<span>Review</span></div>
+                                                </a>
+                                            </div>
+                                            <div class="footer_about_text">
+                                                <p></p>
+                                            </div>
+                                            <div class="footer_social">
+                                                <ul>
+                                                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                    <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-3 footer_col">
+
+                                        <!-- Footer Contact -->
+                                        <div class="footer_section footer_contact">
+                                            <div class="footer_title">Thông tin liên hệ</div>
+                                            <div class="footer_contact_info">
+                                                <ul>
+                                                    <li>Email: demo@gmail.com</li>
+                                                    <li>Điện thoại: +(84) 111 222 333</li>
+                                                    <li>Quận 11, Hồ Chí Minh, Việt Nam</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-3 footer_col">
+
+                                        <!-- Footer links -->
+                                        <div class="footer_section footer_links">
+                                            <div class="footer_title">Về chúng tôi</div>
+                                            <div class="footer_links_container">
+                                                <ul>
+                                                    <li><a href="index.html">Trang chủ</a></li>
+                                                    <li><a href="">Giới thiệu</a></li>
+                                                    <li><a href="">Liên hệ</a></li>
+                                                    <li><a href="">Khóa học</a></li>
+                                                    <li><a href="">Sự kiện</a></li>
+                                                    <li><a href="">Giải đáp</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-3 footer_col clearfix">
+
+                                        <!-- Footer links -->
+                                        <div class="footer_section footer_mobile">
+                                            <div class="footer_title">Tải App WeReview!</div>
+                                            <div class="footer_mobile_content">
+                                                <div class="footer_image">
+                                                    <a href="#"><img src="IMG/mobile_1.png" alt=""></a>
+                                                </div>
+                                                <div class="footer_image">
+                                                    <a href="#"><img src="IMG/mobile_2.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row copyright_row">
+                        <div class="col">
+                            <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+                                <div class="cr_text">
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script>
+                                    All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </div>
+                                <div class="ml-lg-auto cr_links">
+                                    <ul class="cr_list">
+                                        <li><a href="#">Copyright notification</a></li>
+                                        <li><a href="#">Terms of Use</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="pointer"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="JS/style.js"></script>
+
+    <!--Footer JS-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/course.js"></script>
+
+</body>
+
+</html>

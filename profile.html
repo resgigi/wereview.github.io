@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="CSS/profile.css">
+    <link rel="shortcut icon" href="IMG/logo1.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/navBar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Footer CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course.css">
+    <link rel="stylesheet" type="text/css" href="CSS/course_responsive.css">
+
+</head>
+
+<body>
+
+    <div id="LoginForm">
+        <div class="header__main">
+            <div class="sticky-top">
+                <nav class="navbar navbar-expand-sm">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="index2.html" style="margin-bottom: 25px"><img src="IMG/logo.png" width="110px" height="70px"></a>
+
+                    <!-- Links -->
+                    <ul class="navbar-nav" style="padding-bottom: 30px">
+                        <!-- Dropdown 1 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Trung tâm
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="schoolDetails-1.html">Lập trình-AI</a>
+                                <a class="dropdown-item" href="schoolDetails-4.html">Thiết kế</a>
+                            </div>
+                        </li>
+
+                        <!-- Dropdown 4 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Đối tác
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="bussinesspage.html">Liên hệ hợp tác</a>
+                                <a class="dropdown-item" href="#">Đăng ký huy hiệu</a>
+                            </div>
+                        </li>
+                        <!-- Dropdown 5 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" href="#" id="navbardrop" data-toggle="dropdown">
+                                <span class="material-icons">account_circle</span>
+                            </a>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="profile.html">Thông tin tài khoản</a>
+                                <a class="dropdown-item" href="index.html">Đăng xuất</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container" style="margin-left: 150px;margin-top: 50px">
+                <div class="row my-2">
+                    <div class="col-lg-8 order-lg-2">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="" data-target="#profile" data-toggle="tab" class="nav-link active">Hồ sơ cá nhân</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" data-target="#edit" data-toggle="tab" class="nav-link">Bảo mật</a>
+                            </li>
+
+
+                        </ul>
+                        <div class="tab-content py-4">
+                            <div class="tab-pane active" id="profile">
+                                <h5 class="mb-3">Thông tin cá nhân</h5>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label><strong>Họ và tên: </strong></label>&nbsp;&nbsp;Nguyễn Xuân Quang<br>
+                                        <label><strong>Ngày sinh: </strong></label>&nbsp;&nbsp;13/11/1999<br>
+                                        <label><strong>Email: </strong></label>&nbsp;&nbsp;resgigi99@gmail.com<br>
+                                        <label><strong>Điện thoại: </strong></label>&nbsp;&nbsp;0909469152<br>
+                                        <label><strong>Địa chỉ: </strong></label>&nbsp;&nbsp;184 Lê Đại Hành,Q11,Tp.HCM<br>
+                                        <label><strong>Tỉnh thành: </strong></label>&nbsp;&nbsp;Hồ Chí Minh
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <h5 class="mt-2"><span class="fa fa-clock-o ion-clock float-right"></span> Hoạt động</h5>
+                                        <table class="table table-sm table-hover table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <strong>Bạn chưa có hoạt động nào trên WeReview, hãy giúp chúng tôi đánh giá trường mà bạn đã từng học nhé.</strong>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!--/row-->
+                            </div>
+
+                            <div class="tab-pane" id="edit">
+                                <form role="form">
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Tên</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="text" value="Xuân Quang">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Họ</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="text" value="Nguyễn">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="email" value="resgigi99@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Công ty</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="text" value="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Trang web cá nhân</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="url" value="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Địa chỉ</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="text" value="" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label"></label>
+                                        <div class="col-lg-6">
+                                            <input class="form-control" type="text" value="" placeholder="Quận/Huyện">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input class="form-control" type="text" value="" placeholder="Thành Phố">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Múi giờ</label>
+                                        <div class="col-lg-9">
+                                            <select id="user_time_zone" class="form-control" size="0">
+                                    <option value="Hawaii">(GMT-10:00) Hawaii</option>
+                                    <option value="Alaska">(GMT-09:00) Alaska</option>
+                                    <option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
+                                    <option value="Arizona">(GMT-07:00) Arizona</option>
+                                    <option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
+                                    <option value="Central Time (US &amp; Canada)">(GMT-06:00) Central Time (US &amp; Canada)</option>
+                                    <option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
+                                    <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+                                    <option value="VietNam(Asia)" selected="selected">(GMT+07:00) Việt Nam</option>
+                                </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Mật khẩu</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="password" value="11111122333">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label">Nhập lại mật khẩu</label>
+                                        <div class="col-lg-9">
+                                            <input class="form-control" type="password" value="11111122333">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-3 col-form-label form-control-label"></label>
+                                        <div class="col-lg-9">
+                                            <input type="reset" class="btn-hover color" value="Nhập lại">
+                                            <input type="button" id="save" class="btn-hover color" value="Lưu thay đổi">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-1 text-center">
+                        <img src="IMG/teacher-icon.png" class="mx-auto img-fluid img-circle d-block" alt="avatar">
+                        <h6 class="mt-2">Thay ảnh đại diện</h6>
+                        <br>
+                        <label>
+                <input type="file" id="selectedFile" style="display: none;" />
+                <input type="button"class="btn-hover color" style="height: 50px;" value="Chọn" onclick="document.getElementById('selectedFile').click();" />
+            </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="newsletter">
+        <div class="newsletter_background"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+                        <!-- Newsletter Content -->
+                        <div class="newsletter_content text-lg-left text-center">
+                            <div class="newsletter_title">đăng kí nhận khuyến mãi</div>
+                            <div class="newsletter_subtitle">Đăng kí để nhận được những thông tin khóa học và khuyến mãi mới nhất từ các trung tâm đào tạo</div>
+                        </div>
+
+                        <!-- Newsletter Form -->
+                        <div class="newsletter_form_container ml-lg-auto">
+                            <form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+                                <input type="email" class="newsletter_input" placeholder="Nhập email của bạn" required="required">
+                                <button type="submit" class="newsletter_button">Đăng kí</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div>
+        <footer class="footer">
+            <div class="footer_background"></div>
+            <div class="container">
+                <div class="row footer_row">
+                    <div class="col">
+                        <div class="footer_content">
+                            <div class="row">
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer About -->
+                                    <div class="footer_section footer_about">
+                                        <div class="footer_logo_container">
+                                            <a href="#">
+                                                <div class="footer_logo_text">We<span>Review</span></div>
+                                            </a>
+                                        </div>
+                                        <div class="footer_about_text">
+                                            <p></p>
+                                        </div>
+                                        <div class="footer_social">
+                                            <ul>
+                                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer Contact -->
+                                    <div class="footer_section footer_contact">
+                                        <div class="footer_title">Thông tin liên hệ</div>
+                                        <div class="footer_contact_info">
+                                            <ul>
+                                                <li>Email: demo@gmail.com</li>
+                                                <li>Điện thoại: +(84) 111 222 333</li>
+                                                <li>Quận 11, Hồ Chí Minh, Việt Nam</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_links">
+                                        <div class="footer_title">Về chúng tôi</div>
+                                        <div class="footer_links_container">
+                                            <ul>
+                                                <li><a href="index.html">Trang chủ</a></li>
+                                                <li><a href="">Giới thiệu</a></li>
+                                                <li><a href="">Liên hệ</a></li>
+                                                <li><a href="">Khóa học</a></li>
+                                                <li><a href="">Sự kiện</a></li>
+                                                <li><a href="">Giải đáp</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 footer_col clearfix">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_mobile">
+                                        <div class="footer_title">Tải App WeReview!</div>
+                                        <div class="footer_mobile_content">
+                                            <div class="footer_image">
+                                                <a href="#"><img src="IMG/mobile_1.png" alt=""></a>
+                                            </div>
+                                            <div class="footer_image">
+                                                <a href="#"><img src="IMG/mobile_2.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row copyright_row">
+                    <div class="col">
+                        <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+                            <div class="cr_text">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                            <div class="ml-lg-auto cr_links">
+                                <ul class="cr_list">
+                                    <li><a href="#">Copyright notification</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="pointer"></div>
+
+    <!--Footer JS-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/course.js"></script>
+</body>
+
+</html>
